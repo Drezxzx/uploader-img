@@ -34,7 +34,7 @@ export default function Header() {
         <header className="w-full p-6  dark:border-[#4d556262] border-[#E5E7EB] border-b flex justify-between">
         <div className="flex gap-2 text-black dark:text-white font-extrabold text-xl items-center">
         <Image className={`${inter.className} size-9`}  src={logo} alt="logo"></Image>
-        ImageUplouder
+        ConversorCsv
         </div>
   
        <button onClick={handleTheme} className=" bg-white dark:bg-[#212936]  border p-3 rounded-lg border-[#E5E7EB] hover:shadow-md hover:shadow-black/20 dark:hover:shadow-white/20 dark:border-[#4d556262] hover:scale-100 transition">{theme}</button>
